@@ -43,6 +43,7 @@ gem 'tether-rails'
 gem "font-awesome-rails"
 gem "jquery-slick-rails"
 gem 'wow-rails'
+gem 'bundler', '~> 2.0.1'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
