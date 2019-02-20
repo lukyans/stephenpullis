@@ -43,7 +43,7 @@ gem 'tether-rails'
 gem "font-awesome-rails"
 gem "jquery-slick-rails"
 gem 'wow-rails'
-gem 'bundler', '~> 2.0.1'
+# gem 'bundler', '~> 2.0.1'
 
 
 group :development, :test do
