@@ -17,7 +17,7 @@
 //= require ./js/classie
 //= require ./js/mixitup.min
 //= require ./js/nivo-lightbox
-//= require owl.carousel
+//= require owl.theme.default
 //= require ./js/jquery.stellar.min
 //= require ./js/jquery.nav
 //= require ./js/smooth-scroll
