@@ -140,10 +140,8 @@
 
 @media (min-width: 320px) and (max-width: 479px) {
     #video-area .back-img {
-      margin-top: 63px;
-      background: image-url("back/water-lily.jpg");
-      background-size: 1550px 560px;
-      width: 795px;
+      background-image: none;
+      background-color: rgba(0,0,51, 0.8)
     }
 
     .header_area {
