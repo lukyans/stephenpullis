@@ -491,6 +491,10 @@ a:not([href]):not([tabindex]):hover {
 #prices {
   background: #fff;
 }
+
+.prices.section {
+  padding-bottom: 20px;
+}
 #prices .icon {
   display: inline-block;
   width: 60px;
@@ -795,28 +799,37 @@ a:not([href]):not([tabindex]):hover {
 /* ==========================================================================
    Counter Section Style
    ========================================================================== */
+.about_section{
+  padding-top: 95px;
+}
 .counters {
   background: image-url("back/bg1.svg") fixed;
   position: relative;
+  margin-bottom: 30px;
 }
+
+.counters.section {
+  padding: 25px 0;
+}
+
 .counters .facts-item {
   text-align: center;
   color: #fff;
 }
 .counters .facts-item .icon {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 .counters .facts-item .icon i {
-  font-size: 50px;
+  font-size: 42px;
   color: #fff;
 }
 .counters .facts-item .fact-count h3 {
-  font-size: 35px;
+  font-size: 25px;
   color: #fff;
   margin-bottom: 15px;
 }
 .counters .facts-item .fact-count h4 {
-  font-size: 20px;
+  font-size: 18px;
   color: #fff;
 }
 /* ==========================================================================
@@ -824,6 +837,7 @@ a:not([href]):not([tabindex]):hover {
    ========================================================================== */
 #about {
   background: #e4f0f8;
+  // padding-top: 1 70px;
 }
 .about-item {
   text-align: center;
@@ -950,6 +964,11 @@ a:not([href]):not([tabindex]):hover {
   transition: all 0.3s;
   font-family: 'Lato', sans-serif;
 }
+
+textarea.form-control {
+  height: 110px;
+}
+
 .form-control:focus {
   box-shadow: none;
   outline: none;
