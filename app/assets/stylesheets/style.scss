@@ -443,10 +443,7 @@ a:not([href]):not([tabindex]):hover {
 /* ==========================================================================
    Services Section Style
    ========================================================================== */
-// #about {
-//   position: relative;
-//   background: #f2f2f2;
-// }
+
 .item-boxes {
   text-align: center;
   padding: 15px;
@@ -809,7 +806,8 @@ a:not([href]):not([tabindex]):hover {
 }
 
 .counters.section {
-  padding: 25px 0;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .counters .facts-item {
