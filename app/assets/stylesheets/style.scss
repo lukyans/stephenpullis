@@ -129,12 +129,12 @@ a:not([href]):not([tabindex]):hover {
   color: #4676fa;
 }
 .section {
-  padding: 70px 0;
+  padding: 35px 0;
 }
 .section-header {
   margin-top: 60px;
   color: #fff;
-  margin-bottom: 40px;
+  margin-bottom:20px;
   text-align: center;
 }
 .section-header .section-title {
@@ -161,6 +161,7 @@ a:not([href]):not([tabindex]):hover {
   border-top: 2px solid #346afe;
   margin-top: 15px;
 }
+
 .section-header .lines:before {
   position: absolute;
   content: "";
@@ -181,6 +182,7 @@ a:not([href]):not([tabindex]):hover {
     left: 0;
     position: fixed;
     width: 100%;
+    height: 75px;
     z-index: 99;
     top: 0;
     padding: 0 4%;
@@ -188,11 +190,11 @@ a:not([href]):not([tabindex]):hover {
 }
 
 .navbar_logo{
-  width: 40px;
+  width: 32px;
 }
 
 .menu_area .navbar-brand {
-    font-size: 42px;
+    font-size: 35px;
     font-weight: 350;
     color: #fff;
     margin: 0;
@@ -214,14 +216,14 @@ a:not([href]):not([tabindex]):hover {
 
 .menu_area #nav .nav-link {
     color: #fff;
-    display: block;
+    // display: block;
     font-size: 16px;
     font-weight: 500;
     border-radius: 30px;
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
     transition-duration: 500ms;
-    padding: 35px 15px;
+    // padding: 35px 15px;
 }
 
 
@@ -229,30 +231,30 @@ a:not([href]):not([tabindex]):hover {
     color: #fb397d;
 }
 
-.sing-up-button {
-    text-align: right;
-}
+// .sing-up-button {
+//     text-align: right;
+// }
 
-.sing-up-button > a {
-    color: #fff;
-    font-weight: 500;
-    display: inline-block;
-    border: 2px solid #a883e9;
-    height: 50px;
-    min-width: 178px;
-    line-height: 46px;
-    text-align: center;
-    border-radius: 0px 24px 0px 24px;
-}
+// .sing-up-button > a {
+//     color: #fff;
+//     font-weight: 500;
+//     display: inline-block;
+//     border: 2px solid #a883e9;
+//     height: 50px;
+//     min-width: 178px;
+//     line-height: 46px;
+//     text-align: center;
+//     border-radius: 0px 24px 0px 24px;
+// }
 
-.sing-up-button > a:hover {
-    background: #fb397d;
-    color: #fff;
-    border-color: transparent;
-    -webkit-transition-duration: 500ms;
-    -o-transition-duration: 500ms;
-    transition-duration: 500ms;
-}
+// .sing-up-button > a:hover {
+//     background: #fb397d;
+//     color: #fff;
+//     border-color: transparent;
+//     -webkit-transition-duration: 500ms;
+//     -o-transition-duration: 500ms;
+//     transition-duration: 500ms;
+// }
 
 /* stcicky css */
 
@@ -377,9 +379,56 @@ a:not([href]):not([tabindex]):hover {
   // overflow: hidden;
   // position: relative;
 }
-#video-area .contents {
-  padding: 260px 0 80px;
+
+.back-img {
+  margin-top: 75px;
+  background: image-url("back/water-lily.jpg");
+  // background: image-url("back/sp_home.jpg");
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 80%;
 }
+
+.layers {
+    background-color: rgba(0,0,51, 0.8); //2,52,103, 0.9
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.lines {
+  margin: auto;
+  width: 70px;
+  position: relative;
+  border-top: 2px solid #346afe;
+  margin-top: 15px;
+}
+
+.lines:before {
+  position: absolute;
+  content: "";
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  top: -6px;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  background: #4676fa;
+  left: 29px;
+}
+
+.pos{
+  position: relative;
+  z-index: 10;
+}
+
+#video-area .contents {
+  padding: 460px 0 80px;
+}
+
 #video-area .contents h1 {
   color: #fff;
   font-size: 50px;
@@ -445,7 +494,7 @@ a:not([href]):not([tabindex]):hover {
    ========================================================================== */
 
 .item-boxes {
-  text-align: center;
+  text-align: left;
   padding: 15px;
   border-radius: 4px;
   margin-bottom: 15px;
@@ -481,6 +530,15 @@ a:not([href]):not([tabindex]):hover {
 #services {
   position: relative;
   background: #F5FBFF;
+}
+
+.modalities-col {
+  @media (min-width: 768px) {
+    .col-md-2 {
+      flex: 0 0 26.66667%;
+      max-width: 25%;
+    }
+  }
 }
 /* ==========================================================================
    Pricing Table
@@ -797,39 +855,40 @@ a:not([href]):not([tabindex]):hover {
    Counter Section Style
    ========================================================================== */
 .about_section{
-  padding-top: 95px;
+  padding-top: 110px;
+  padding-bottom: 110px;
 }
-.counters {
-  background: image-url("back/bg1.svg") fixed;
-  position: relative;
-  margin-bottom: 30px;
-}
-
-.counters.section {
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
-
-.counters .facts-item {
-  text-align: center;
-  color: #fff;
-}
-.counters .facts-item .icon {
-  margin-bottom: 15px;
-}
-.counters .facts-item .icon i {
-  font-size: 42px;
-  color: #fff;
-}
-.counters .facts-item .fact-count h3 {
-  font-size: 25px;
-  color: #fff;
-  margin-bottom: 15px;
-}
-.counters .facts-item .fact-count h4 {
-  font-size: 18px;
-  color: #fff;
-}
+// .counters {
+//   background: image-url("back/bg1.svg") fixed;
+//   position: relative;
+//   margin-bottom: 30px;
+// }
+//
+// .counters.section {
+//   padding-top: 25px;
+//   padding-bottom: 25px;
+// }
+//
+// .counters .facts-item {
+//   text-align: center;
+//   color: #fff;
+// }
+// .counters .facts-item .icon {
+//   margin-bottom: 15px;
+// }
+// .counters .facts-item .icon i {
+//   font-size: 42px;
+//   color: #fff;
+// }
+// .counters .facts-item .fact-count h3 {
+//   font-size: 25px;
+//   color: #fff;
+//   margin-bottom: 15px;
+// }
+// .counters .facts-item .fact-count h4 {
+//   font-size: 18px;
+//   color: #fff;
+// }
 /* ==========================================================================
    About Section Style
    ========================================================================== */
@@ -841,7 +900,7 @@ a:not([href]):not([tabindex]):hover {
   text-align: center;
 }
 .about-item .img img{
-  width: 125px;
+  width: 175px;
   height: 175px;
   border-radius: 50%;
 }
@@ -1197,26 +1256,4 @@ footer {
     transform: scale(1);
     -webkit-transform: scale(1);
   }
-}
-
-.back-img {
-  margin-top: 110px;
-  background: image-url("back/water-lily.jpg");
-  position: absolute;
-  z-index: 1;
-  width: 100%;
-  height: 80%;
-}
-.layers {
-    background-color: rgba(0,0,51, 0.8); //2,52,103, 0.9
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.pos{
-  position: relative;
-  z-index: 10;
 }
