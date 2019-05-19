@@ -1,6 +1,6 @@
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
-  mailgun_secret_api_key: '96ab6c2925dd140bf322fdec5b7d79f1-4a62b8e8-7c3e1737'
+  mailgun_secret_api_key: 96ab6c2925dd140bf322fdec5b7d79f1-4a62b8e8-7c3e1737
 
   Mailgun.configure do |config|
     config.api_key = 'ENV["mailgun_secret_api_key"]'
