@@ -1,9 +1,13 @@
 <section id="prices" class="section" data-stellar-background-ratio="0.2">
   <div class="container mb-3">
     <div class="section-header">
-      <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s"><span>Rates</span></h2>
+      <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s"><span>Services</span></h2>
       <hr class="lines wow zoomIn" data-wow-delay="0.3s">
-      <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">I  deliver you high quality service that you will surely love!.</p>
+      <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">
+        Gift Certificates are available through the MIndBody
+        <%= link_to "website", "https://clients.mindbodyonline.com/" %>
+        and MindBody <%= link_to "app", "https://mindbody.io/?_branch_match_id=519686504558933267" %> for Mobile devices
+        </p>
     </div>
     <div class="row">
       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
@@ -111,12 +115,23 @@
       </div>
     </div>
   </div>
-<br><p>*All sessions include general balancing from head to toes, and conclude with the feet wrapped in warm moist towels.</p>
+  <div class="price-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10">
+          <br><p>*All sessions include general balancing from head to toes, and conclude with the feet wrapped in warm moist towels.</p>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cancellationPolicy">
+            Cancellation Policy
+          </button>
+        </div>
 
+        <div class="col-md-2 mt-5 ">
+          <%= image_tag "prices/payment_methods.png", width: "170" %>
+        </div>
 
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cancellationPolicy">
-  Cancellation Policy
-</button>
+      </div>
+    </div>
+  </div>
 </section>
 
 <!-- Modal -->

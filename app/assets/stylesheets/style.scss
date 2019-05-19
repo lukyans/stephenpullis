@@ -197,7 +197,7 @@ a:not([href]):not([tabindex]):hover {
     font-size: 35px;
     font-weight: 350;
     color: #fff;
-    margin: 0;
+    margin-top: 5px;
     line-height: 1;
     padding: 0;
 }
@@ -370,20 +370,14 @@ a:not([href]):not([tabindex]):hover {
 // #slider-area .large_white {
 //   color: #fff;
 // }
+
 /* ==========================================================================
-   Video Background
+   Home Area
    ========================================================================== */
-#video-area {
-  // margin-top: 40px;
-  // padding-top: 140px;
-  // overflow: hidden;
-  // position: relative;
-}
 
 .back-img {
   margin-top: 75px;
   background: image-url("back/water-lily.jpg");
-  // background: image-url("back/sp_home.jpg");
   position: absolute;
   z-index: 1;
   width: 100%;
@@ -425,32 +419,34 @@ a:not([href]):not([tabindex]):hover {
   z-index: 10;
 }
 
-#video-area .contents {
-  padding: 460px 0 80px;
+#home .contents {
+  padding: 260px 0 80px;
 }
 
-#video-area .contents h1 {
+#home .contents h1 {
   color: #fff;
   font-size: 50px;
   font-weight: 600;
   margin-bottom: 25px;
   line-height: 70px;
 }
-#video-area .contents p {
+
+#home .contents p {
   font-size: 18px;
   color: #fff;
   font-weight: 400;
   line-height: 30px;
   letter-spacing: 0.5px;
 }
-#video-area .contents .btn {
+#home .contents .btn {
   margin: 20px 10px;
   text-transform: uppercase;
 }
-#video-area .banner_bottom_btn {
+
+#home .banner_bottom_btn {
   margin-top: 40px;
 }
-#video-area .banner_bottom_btn i {
+#home .banner_bottom_btn i {
   color: #fff;
   font-size: 48px;
   -webkit-transition: all 0.2s linear;
@@ -458,20 +454,16 @@ a:not([href]):not([tabindex]):hover {
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
-#video-area .banner_bottom_btn i:hover {
+#home .banner_bottom_btn i:hover {
   color: #4676fa;
 }
-// .overlay-2 {
-//   position: absolute;
-//     top: 0;
-//     right: 0;
-//     bottom: 0;
-//     left: 0;
-//     background: linear-gradient(180deg, #3466ae 0%, #5390f1 100%)!important;
-//     opacity: 0.8;
-//     z-index: 300;
-//
-// }
+
+.signature {
+  font: 400 20px/0.8 'Great Vibes', Helvetica, sans-serif;
+  text-align: right;
+  color: white;
+}
+
 .overlay-3 {
   position: absolute;
     top: 0;
@@ -626,6 +618,12 @@ a:not([href]):not([tabindex]):hover {
 }
 #prices .show-box img {
   width: 100%;
+}
+
+#prices .price-footer {
+  .container {
+    max-width: 1240px;
+  }
 }
 /* ==========================================================================
    Screenshots Section Start
@@ -1043,6 +1041,9 @@ textarea.form-control {
   box-shadow: 0px 1px 3px 0 rgba(112,154,206,0.3), 0px 6px 22px 0 rgba(83,128,184,0.12), inset 0px -3px 2.5px 0 rgba(93,121,155,0.05);
   padding: 30px;
   overflow: hidden;
+  strong {
+    font-weight: bold;
+  }
 }
 #contact #contactForm {
   margin-top: 30px;
@@ -1075,6 +1076,7 @@ footer {
 }
 .social-icons {
   margin-bottom: 20px;
+  margin-left: 0px;
 }
 .social-icons ul {
   margin: 0;
@@ -1129,6 +1131,9 @@ footer {
 }
 .linkedin a:hover {
   background: #007bb6;
+}
+.mindbody a:hover {
+  background: #F7921E;
 }
 .pinterest a {
   color: #bd081c;
