@@ -9,8 +9,9 @@ Rails.application.configure do
   config.action_mailer.delivery_method = :mailgun
   config.action_mailer.mailgun_settings = {
     api_key: 'ENV["mailgun_secret_api_key"]',
-    domain: 'https://shielded-caverns-34293.herokuapp.com/',
+    domain: 'https://shielded-caverns-34293.herokuapp.com/'
   }
+
   # Code is not reloaded between requests.
   config.cache_classes = true
 
