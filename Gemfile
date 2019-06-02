@@ -38,7 +38,7 @@ gem 'bootsnap', '>= 1.4.0', require: false
 gem 'devise'
 gem 'bootstrap', '~> 4.2.1'
 gem 'jquery-rails'
-gem 'owlcarousel-rails'
+
 gem 'tether-rails'
 gem "font-awesome-rails"
 gem "jquery-slick-rails"

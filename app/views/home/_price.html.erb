@@ -4,10 +4,8 @@
       <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s"><span>Services</span></h2>
       <hr class="lines wow zoomIn" data-wow-delay="0.3s">
       <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">
-        Gift Certificates are available through the MIndBody
-        <%= link_to "website", "https://clients.mindbodyonline.com/" %>
-        and MindBody <%= link_to "app", "https://mindbody.io/?_branch_match_id=519686504558933267" %> for Mobile devices
-        </p>
+        Each session will be individually tailored for you, based on the issues you report , what I discover, and the creative synergy of the moment.
+      </p>
     </div>
     <div class="row">
       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
@@ -63,6 +61,11 @@
         <div class="show-box wow fadeInDown mt-5" data-wow-offset="10">
           <%= image_tag("prices/massage2.jpg", style: "opacity:0.9")%>
         </div>
+        <p class="mt-3 text-center">
+          Gift Certificates are available through the MIndBody
+          <%= link_to "website", "https://clients.mindbodyonline.com/" %>
+          and MindBody <%= link_to "app", "https://mindbody.io/?_branch_match_id=519686504558933267" %> for Mobile devices
+        </p>
       </div>
       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
         <div class="content-right text-left wow fadeInRight animated" data-wow-offset="10">
@@ -116,46 +119,8 @@
     </div>
   </div>
   <div class="price-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-10">
-          <br><p>*All sessions include general balancing from head to toes, and conclude with the feet wrapped in warm moist towels.</p>
-          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cancellationPolicy">
-            Cancellation Policy
-          </button>
-        </div>
-
-        <div class="col-md-2 mt-5 ">
-          <%= image_tag "prices/payment_methods.png", width: "170" %>
-        </div>
-
-      </div>
+    <div class="ml-3">
+      <%= image_tag "prices/payment_methods.png", width: "170" %>
     </div>
   </div>
 </section>
-
-<!-- Modal -->
-<div class="modal fade" id="cancellationPolicy" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Cancellation Policy</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        I believe in mutual  kindness and understanding when it comes to changing or cancelling our scheduled appointment. Here are the rules:
-        <ul>
-          <br><li>Let me know at least 8 hours prior.</li>
-          <li>If you let me know less than 8 hours but before the scheduled appointment time, you will only be charged 50% of the session rate.</li>
-          <li>If you do not notify me and do not arrive for our scheduled appointment, you will forfeit  the full session rate.</li>
-        </ul><br>
-        <br>NOTE:  If I do not give you 8 hours notice before cancelling our appointment I will reimburse you by the same standards I request of you.
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>

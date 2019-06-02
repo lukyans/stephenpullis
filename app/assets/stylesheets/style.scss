@@ -3,8 +3,8 @@
 
 @import "bootstrap";
 @import "font-awesome";
-@import "owl.carousel";
-@import "owl.theme.default";
+
+
 @import "./css/nivo-lightbox";
 @import "./css/magnific-popup";
 @import "./css/animate";
@@ -874,13 +874,54 @@ a:not([href]):not([tabindex]):hover {
 /* ==========================================================================
    Welcome
    ========================================================================== */
+
+.carousel {
+  width: 100%;
+}
+
+.slide-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .slide-box img {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .slide-box img {
+    -ms-flex: 0 0 33.3333%;
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+}
+
+@media (min-width: 992px)
+{
+  .slide-box img {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: .5rem;
+}
+
 .welcome{
   padding-top: 110px;
   padding-bottom: 30px;
 }
 
 .welcome-footer {
-  padding: 100px 0px 0px 180px;
+  padding: 10px 0px 0px 45px;
 }
 
 #welcome {
@@ -970,12 +1011,12 @@ a:not([href]):not([tabindex]):hover {
   line-height: 1.5;
   color: #999;
 }
-.owl-theme .owl-controls .owl-page span {
-  background: #4676fa;
-}
-.owl-theme .owl-controls {
-  margin-top: 20px;
-}
+// .owl-theme .owl-controls .owl-page span {
+//   background: #4676fa;
+// }
+// .owl-theme .owl-controls {
+//   margin-top: 20px;
+// }
 
 /* ==========================================================================
    Blog

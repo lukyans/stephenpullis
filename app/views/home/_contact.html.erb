@@ -8,7 +8,7 @@
             <hr class="lines wow zoomIn" data-wow-delay="0.3s">
           </div>
           My practice is conveniently located in an Edwardian Flat in the Heart of the Castro -the geographical center of San Francisco- with easy access by public transportation or by car (only 10 -15 minutes from major Bay Area freeways).
-          <h6 class="mt-3 mb-2"><strong>Alternative Ways to Schedule an Appointment:</strong></h6>
+          <h6 class="mt-3 mb-2"><strong>Additional Ways to Schedule an Appointment:</strong></h6>
           <p class="mt-2">
             <strong>Schedule by Phone:</strong>
             <br>You can call or text my cellphone at <strong>(415) 377 9396</strong>
@@ -17,8 +17,35 @@
             <strong>Schedule by Email:</strong>
             <br>To schedule massage appointments via email: <%= mail_to "stephenmassage@mac.com", "Send Email Now" %>, please specify the desired date and time you would like, and I will get back to you as promptly as possible, generally within a couple of hours. I must contact you to confirm your appointment time, before it is officially on my schedule.
           </p>
+          <%= link_to "Cancellation Policy", "", {'data-toggle' => "modal", 'data-target' => "#cancellationPolicy"} %>
         </div>
       </div>
     </div>
   </div>
 </section>
+
+<!-- Modal -->
+<div class="modal fade" id="cancellationPolicy" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Cancellation Policy</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        I believe in mutual  kindness and understanding when it comes to changing or cancelling our scheduled appointment. Here are the rules:
+        <ul>
+          <br><li>Let me know at least 8 hours prior.</li>
+          <li>If you let me know less than 8 hours but before the scheduled appointment time, you will only be charged 50% of the session rate.</li>
+          <li>If you do not notify me and do not arrive for our scheduled appointment, you will forfeit  the full session rate.</li>
+        </ul><br>
+        <br>NOTE:  If I do not give you 8 hours notice before cancelling our appointment I will reimburse you by the same standards I request of you.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
