@@ -381,7 +381,16 @@ a:not([href]):not([tabindex]):hover {
   position: absolute;
   z-index: 1;
   width: 100%;
-  height: 80%;
+  height: 87%;
+}
+
+.container-fluid {
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  overflow-x: hidden;
 }
 
 .layers {
@@ -617,7 +626,7 @@ a:not([href]):not([tabindex]):hover {
   padding: 60px 0px 0px;
 }
 #prices .show-box img {
-  width: 100%; 
+  width: 100%;
 }
 
 #prices .overlay:before{

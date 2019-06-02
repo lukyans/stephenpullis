@@ -18,7 +18,7 @@
         bottom: -100px;
         right: 50px;
     }
-    .video-area {
+    .home {
         height: 550px;
     }
     .app_screenshots_slides {
@@ -36,7 +36,7 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  #video-area .back-img {
+  #home .back-img {
     margin-top: 63px;
     background: image-url("back/water-lily.jpg");
     background-size: 1550px 560px;
@@ -81,7 +81,7 @@
     .special_description_content > h2 {
         font-size: 30px;
     }
-    .video-area {
+    .home {
         height: 350px;
     }
     .section-heading > h2 {
@@ -139,7 +139,7 @@
 }
 
 @media (min-width: 320px) and (max-width: 479px) {
-    #video-area .back-img {
+    #home .back-img {
       background-image: none;
       background-color: rgba(0,0,51, 0.8)
     }
@@ -210,12 +210,12 @@
     .app-download-btn {
         margin-bottom: 20px;
     }
-    .video-area {
+    .home {
         border: 10px solid #fff;
         border-radius: 20px;
         height: 250px;
     }
-    .video-area::after {
+    .home::after {
         top: -10px;
         left: -10px;
         width: calc(100% + 20px);
@@ -263,13 +263,13 @@
 }
 
 @media (min-width: 480px) and (max-width: 767px) {
-    #video-area .back-img {
+    #home .back-img {
       margin-top: 63px;
       background: image-url("back/water-lily.jpg");
       background-size: 1550px 560px;
     }
 
-    #video-area .back-img {
+    #home .back-img {
       min-width: 914px;
       min-height: 492px;
     }
