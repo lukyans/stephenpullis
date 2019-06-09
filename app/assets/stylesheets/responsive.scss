@@ -37,9 +37,10 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
   #home .back-img {
-    margin-top: 63px;
-    background: image-url("back/water-lily.jpg");
-    background-size: 1550px 560px;
+    background: image-url("home/home_stars.jpg");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
   }
     .header_area {
         padding: 0;
@@ -140,8 +141,10 @@
 
 @media (min-width: 320px) and (max-width: 479px) {
     #home .back-img {
-      background-image: none;
-      background-color: rgba(0,0,51, 0.8)
+      background: image-url("home/home_stars.jpg");
+      background-size:     cover;
+      background-repeat:   no-repeat;
+      background-position: center center;
     }
 
     .header_area {
@@ -264,15 +267,28 @@
 
 @media (min-width: 480px) and (max-width: 767px) {
     #home .back-img {
-      margin-top: 63px;
-      background: image-url("back/water-lily.jpg");
-      background-size: 1550px 560px;
+      background: image-url("home/home_stars.jpg");
+      background-size:     cover;
+      background-repeat:   no-repeat;
+      background-position: center center;
     }
 
-    #home .back-img {
-      min-width: 914px;
-      min-height: 492px;
+    #home .contents p {
+      font-size: 28px;
+      color: #fff;
+      font-weight: 900;
+      line-height: 38px;
+      letter-spacing: 0.3px;
     }
+
+    .menu_area .navbar-brand {
+      font-size: 30px;
+    }
+
+    // #home .back-img {
+    //   // min-width: 914px;
+    //   // min-height: 492px;
+    // }
 
     .wellcome-heading > h3 {
         font-size: 100px;
@@ -303,18 +319,44 @@
 
   #prices .content-left .text {
     margin-top: .6rem !important;
-    margin-right: 29px;
-    text-align: center;
+    // margin-right: 29px;
+    text-align: right;
     font-size: 15px;
   }
   #prices .content-right .text {
     margin-top: 0.6rem !important;
-    margin-left: 35px;
-    text-align: center;
+    // margin-left: 35px;
+    text-align: left;
     font-size: 15px;
   }
-  #prices .left-header strong {
-    margin-bottom: 43px;
+  #prices .left-header {
+    margin-bottom: 10px;
+    align-self: right;
+  }
+  #prices .right-header strong {
+    margin-bottom: 10px;
+  }
+  #prices .price-footer .gift_certificate {
+    display:none;
+  }
+  #prices .col-3{
+    max-width: 18%;
+  }
+
+  .menu_area #nav .nav-link {
+      color: black;
+      display: block;
+      width: 200px;
+      font-size: 16px;
+      font-weight: 600;
+      border-radius: 0px;
+      -webkit-transition-duration: 500ms;
+      -o-transition-duration: 500ms;
+      transition-duration: 500ms;
+      background-color: white;
+      padding: 10px;
+      // border-bottom: 0.5px solid black;
+       border-top: 0.5px solid lightgrey;
   }
 }
 
