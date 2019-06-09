@@ -175,6 +175,16 @@ a:not([href]):not([tabindex]):hover {
   left: 29px;
 }
 
+// #getOurApp {
+//   // border: none;
+//   width: 200px;
+//   height: 48px;
+// }
+// #connect-link {
+//   display: block;
+//   width: 40px;
+// }
+
 /* --------------------------
 :: 2.0 Header Area CSS
 -------------------------- */
@@ -186,7 +196,8 @@ a:not([href]):not([tabindex]):hover {
     z-index: 99;
     top: 0;
     padding: 0 4%;
-    background-color: #023467;
+    background-color: #5B5AC8;
+    // #023467
 }
 
 .navbar_logo{
@@ -289,61 +300,60 @@ a:not([href]):not([tabindex]):hover {
     padding: 0;
 }
 
-
 /* ==========================================================================
    Hero Area Style
    ========================================================================== */
-#hero-area {
-
-  background-size: cover;
-  color: #fff;
-  overflow: hidden;
-  position: relative;
-}
-#hero-area .overlay {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0px;
-  left: 0px;
-  background: #4676fa;
-  opacity: 0.7;
-  filter: alpha(opacity=70);
-}
-#hero-area .contents {
-  padding: 160px 0 80px;
-}
-#hero-area .contents h1 {
-  color: #fff;
-  font-size: 50px;
-  font-weight: 100;
-  margin-bottom: 25px;
-}
-#hero-area .contents p {
-  font-size: 14px;
-  color: #fff;
-  font-weight: 400;
-  line-height: 30px;
-  letter-spacing: 0.5px;
-}
-#hero-area .contents .btn {
-  margin: 20px 10px;
-  text-transform: uppercase;
-}
-#hero-area .banner_bottom_btn {
-  margin-top: 40px;
-}
-#hero-area .banner_bottom_btn i {
-  color: #fff;
-  font-size: 48px;
-  -webkit-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  transition: all 0.2s linear;
-}
-#hero-area .banner_bottom_btn i:hover {
-  color: #4676fa;
-}
+// #hero-area {
+//
+//   background-size: cover;
+//   color: #fff;
+//   overflow: hidden;
+//   position: relative;
+// }
+// #hero-area .overlay {
+//   position: absolute;
+//   width: 100%;
+//   height: 100%;
+//   top: 0px;
+//   left: 0px;
+//   background: #4676fa;
+//   opacity: 0.7;
+//   filter: alpha(opacity=70);
+// }
+// #hero-area .contents {
+//   padding: 160px 0 80px;
+// }
+// #hero-area .contents h1 {
+//   color: #fff;
+//   font-size: 50px;
+//   font-weight: 100;
+//   margin-bottom: 25px;
+// }
+// #hero-area .contents p {
+//   font-size: 14px;
+//   color: #fff;
+//   font-weight: 400;
+//   line-height: 30px;
+//   letter-spacing: 0.5px;
+// }
+// #hero-area .contents .btn {
+//   margin: 20px 10px;
+//   text-transform: uppercase;
+// }
+// #hero-area .banner_bottom_btn {
+//   margin-top: 40px;
+// }
+// #hero-area .banner_bottom_btn i {
+//   color: #fff;
+//   font-size: 48px;
+//   -webkit-transition: all 0.2s linear;
+//   -moz-transition: all 0.2s linear;
+//   -o-transition: all 0.2s linear;
+//   transition: all 0.2s linear;
+// }
+// #hero-area .banner_bottom_btn i:hover {
+//   color: #4676fa;
+// }
 // /* ==========================================================================
 //    Slider Area
 //    ========================================================================== */
@@ -376,30 +386,33 @@ a:not([href]):not([tabindex]):hover {
    ========================================================================== */
 
 .back-img {
-  margin-top: 75px;
-  background: image-url("back/water-lily.jpg");
+  // margin-top: 75px;
+  background: image-url("home/home_stars.jpg");
   position: absolute;
   z-index: 1;
   width: 100%;
-  height: 87%;
+  height: 100%;
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
 }
 
 .container-fluid {
   width: 100%;
-  padding-right: 0px;
-  padding-left: 0px;
+  // padding-right: 0px;
+  // padding-left: 0px;
   margin-right: auto;
   margin-left: auto;
   overflow-x: hidden;
 }
 
 .layers {
-    background-color: rgba(0,0,51, 0.8); //2,52,103, 0.9
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  background-color: rgba(0,0,51, 0.5); //2,52,103, 0.9
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .lines {
@@ -429,29 +442,28 @@ a:not([href]):not([tabindex]):hover {
 }
 
 #home .contents {
-  padding: 280px 0 80px;
+  padding: 160px 0 80px;
 }
 
-#home .contents h1 {
-  color: #fff;
-  font-size: 50px;
-  font-weight: 600;
-  margin-bottom: 25px;
-  line-height: 70px;
-}
+// #home .contents h1 {
+//   color: #fff;
+//   font-size: 50px;
+//   font-weight: 600;
+//   margin-bottom: 25px;
+//   line-height: 70px;
+// }
 
 #home .contents p {
-  font-size: 18px;
+  font-size: 51px;
   color: #fff;
-  font-weight: 400;
-  line-height: 30px;
-  letter-spacing: 0.5px;
+  font-weight: 900;
+  line-height: 76px;
+  letter-spacing: 0.3px;
 }
 #home .contents .btn {
   margin: 20px 10px;
   text-transform: uppercase;
 }
-
 #home .banner_bottom_btn {
   margin-top: 40px;
 }
@@ -460,11 +472,16 @@ a:not([href]):not([tabindex]):hover {
   font-size: 48px;
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
+  // -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
 #home .banner_bottom_btn i:hover {
   color: #4676fa;
+}
+
+#home .intro_text {
+  font-family: 'Lora', serif;
+  text-align: left;
 }
 
 .signature {
@@ -473,23 +490,23 @@ a:not([href]):not([tabindex]):hover {
   // color: white;
 }
 
-.overlay-3 {
-  position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 300;
-
-}
-.overlay-4 {
-  position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-
-}
+// .overlay-3 {
+//   position: absolute;
+//     top: 0;
+//     right: 0;
+//     bottom: 0;
+//     left: 0;
+//     z-index: 300;
+//
+// }
+// .overlay-4 {
+//   position: absolute;
+//     top: 0;
+//     right: 0;
+//     bottom: 0;
+//     left: 0;
+//
+// }
 /* ==========================================================================
    Modlities Section Style
    ========================================================================== */
@@ -646,6 +663,13 @@ a:not([href]):not([tabindex]):hover {
     max-width: 1240px;
   }
 }
+
+#prices .price-footer .col-3 {
+  // padding-left: 16px;
+  padding-right: 0px;
+  max-width: 20%;
+}
+
 /* ==========================================================================
    Screenshots Section Start
    ========================================================================== */
@@ -857,7 +881,7 @@ a:not([href]):not([tabindex]):hover {
    Promo Style
    ========================================================================== */
 .promo {
-  background: image-url("back/water-lily.jpg") fixed;
+  background: image-url("home/water-lily.jpg") fixed;
   background-position: cover;
   height: 400px;
   position: relative;
@@ -1125,7 +1149,7 @@ textarea.form-control {
 }
 #contact {
   background: #fff;
-  background-image: image-url("back/wave-bg.png");
+  background-image: image-url("home/wave-bg.png");
 }
 #contact .contact-block {
   background: #fff;

@@ -22,7 +22,7 @@
             <div class="col-3">
               <div class="box-item" style="cursor: pointer">
                 <span class="icon" data-placement="top" title="We will focus on a couple of specific issues or areas that you request.">
-                  <i class="fa fa-check"></i>
+                  <%= image_tag"prices/candle.jpg", style: 'height:100%; width:100%;'%>
                 </span>
               </div>
             </div>
@@ -36,7 +36,7 @@
             <div class="col-3">
               <div class="box-item" style="cursor: pointer">
                 <span class="icon" data-placement="top" title="This is a full body treatment addressing the specific issues that you bring as well as what I find by applying a variety of modalities. You can anticipate some gentle stretching, Trigger Point, Swedish & Deep Tissue, along with  additional therapeutic methods.">
-                  <i class="fa fa-heart-o"></i>
+                  <%= image_tag"prices/flowers.jpg", style: 'height:100%; width:100%;'%>
                 </span>
               </div>
             </div>
@@ -50,7 +50,7 @@
             <div class="col-3">
               <div class="box-item" style="cursor: pointer">
                 <span class="icon" data-placement="top" title="This is a full body treatment addressing the specific issues that you bring, as well as what we find together. Each treatment is like an exploratative journey gently encouraging 'knots' to melt, finding the most efficient and effective routes to release persistent issues of tension, tightness, and soreness… encouraging balance, fluidity, and ease. As we flow along, additional modalities are incorporated, including warm, soothing stones.">
-                  <i class="fa fa-heart"></i>
+                  <%= image_tag"prices/angel.jpg", style: 'height:100%; width:100%;'%>
                 </span>
               </div>
             </div>
@@ -61,11 +61,6 @@
         <div class="show-box wow fadeInDown mt-5" data-wow-offset="10">
           <%= image_tag("prices/massage2.jpg", style: "opacity:0.9")%>
         </div>
-        <p class="mt-3 text-center">
-          Gift Certificates are available through the MIndBody
-          <%= link_to "website", "https://clients.mindbodyonline.com/" %>
-          and MindBody <%= link_to "app", "https://mindbody.io/?_branch_match_id=519686504558933267" %> for Mobile devices
-        </p>
       </div>
       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
         <div class="content-right text-left wow fadeInRight animated" data-wow-offset="10">
@@ -76,7 +71,7 @@
             <div class="col-3">
               <div class="box-item" style="cursor: pointer">
                 <span class="icon" data-placement="top" title="We will focus on a couple of specific issues or areas that you request.">
-                  <i class="fa fa-thumbs-up"></i>
+                  <%= image_tag"prices/ball.jpg", style: 'height:100%; width:100%;'%>
                 </span>
               </div>
             </div>
@@ -90,7 +85,7 @@
             <div class="col-3">
               <div class="box-item" style="cursor: pointer">
                 <span class="icon" data-placement="top" title="This is a full body treatment addressing the specific issues that you bring as well as what I find by applying a variety of modalities. You can anticipate some gentle stretching, Trigger Point, Swedish & Deep Tissue, among several therapeutic methods.">
-                  <i class="fa fa-heartbeat"></i>
+                  <%= image_tag"prices/stars.jpg", style: 'height:100%; width:100%;'%>
                 </span>
               </div>
             </div>
@@ -104,7 +99,7 @@
             <div class="col-3">
               <div class="box-item" style="cursor: pointer">
                 <span class="icon" data-placement="top" title="This is a full body treatment addressing the specific issues that you bring, as well as what I find. Each treatment is like a an explora-tative journey of gently encouraging 'knots' to melt, divining the most efficient and effective routes to find and release persistent issues of tension, tightness, soreness... encouraging balance, fluidity, and ease. Numerous modalities are used as we flow along. Warm, soothing stones can also be incorporated into this service.">
-                  <i class="fa fa-rocket"></i>
+                  <%= image_tag"prices/light.jpg", style: 'height:100%; width:100%;'%>
                 </span>
               </div>
             </div>
@@ -119,8 +114,18 @@
     </div>
   </div>
   <div class="price-footer">
-    <div class="ml-3">
-      <%= image_tag "prices/payment_methods.png", width: "170" %>
+    <div class="container">
+      <div class="row">
+        <div class="col-3 mt-4 text-right">
+          Gift Certificates are available through the MIndBody website and MindBody app for Mobile devices
+        </div>
+        <div class="col-2 mt-4 mr-5">
+          <iframe id="getOurApp" scrolling="no" allowtransparency="true" src="https://clients.mindbodyonline.com/connect/appbutton?siteID=251698" style="border: none; width: 200px; height: 48px;"></iframe>
+        </div>
+        <div class="col-7 mt-4 ml-2 text-right">
+          <%= image_tag "prices/payment_methods.png", width: "170" %>
+        </div>
+      </div>
     </div>
   </div>
 </section>
