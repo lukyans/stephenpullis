@@ -146,12 +146,19 @@
       background-repeat:   no-repeat;
       background-position: center center;
     }
+    #home .contents p {
+      font-size: 28px;
+      color: #fff;
+      font-weight: 900;
+      line-height: 38px;
+      letter-spacing: 0.3px;
+    }
 
     .header_area {
         padding: 0;
     }
     .menu_area .navbar-brand {
-        font-size: 48px;
+        font-size: 30px;
     }
     .header_area.sticky {
         height: 50px;
@@ -261,57 +268,61 @@
         margin-bottom: 0;
     }
 	.header_area.sticky .menu_area #nav .nav-link{
-	color: #fff;
+	  color: #fff;
 	}
+
+  #prices .price-footer .gift_certificate {
+    display:none;
+  }
 }
 
 @media (min-width: 480px) and (max-width: 767px) {
-    #home .back-img {
-      background: image-url("home/home_stars.jpg");
-      background-size:     cover;
-      background-repeat:   no-repeat;
-      background-position: center center;
-    }
+  #home .back-img {
+    background: image-url("home/home_stars.jpg");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+  }
 
-    #home .contents p {
-      font-size: 28px;
-      color: #fff;
-      font-weight: 900;
-      line-height: 28px;
-      letter-spacing: 0.3px;
-    }
+  #home .contents p {
+    font-size: 28px;
+    color: #fff;
+    font-weight: 900;
+    line-height: 38px;
+    letter-spacing: 0.3px;
+  }
 
-    .menu_area .navbar-brand {
-      font-size: 20px;
-    }
+  .menu_area .navbar-brand {
+    font-size: 30px;
+  }
 
-    // #home .back-img {
-    //   // min-width: 914px;
-    //   // min-height: 492px;
-    // }
+  // #home .back-img {
+  //   // min-width: 914px;
+  //   // min-height: 492px;
+  // }
 
-    .wellcome-heading > h3 {
-        font-size: 100px;
-    }
-    .wellcome-heading > h2 {
-        font-size: 70px;
-    }
-    .welcome-thumb {
-        bottom: -109px;
-        width: 75%;
-    }
-    .wellcome-heading {
-        margin-bottom: 50px;
-    }
-    .wellcome-heading > h3 {
-        top: -139px;
-    }
-    .get-start-area .email {
-        max-width: 370px;
-    }
-	.header_area.sticky .menu_area #nav .nav-link{
-	color: #fff;
-	}
+  .wellcome-heading > h3 {
+      font-size: 100px;
+  }
+  .wellcome-heading > h2 {
+      font-size: 70px;
+  }
+  .welcome-thumb {
+      bottom: -109px;
+      width: 75%;
+  }
+  .wellcome-heading {
+      margin-bottom: 50px;
+  }
+  .wellcome-heading > h3 {
+      top: -139px;
+  }
+  .get-start-area .email {
+      max-width: 370px;
+  }
+   .header_area.sticky .menu_area #nav .nav-link{
+    color: #fff;
+   }
 
   #prices .box-item .text h4 {
     font-size: 12px;
@@ -343,21 +354,21 @@
     max-width: 18%;
   }
 
-  .menu_area #nav .nav-link {
-      color: black;
-      display: block;
-      width: 200px;
-      font-size: 16px;
-      font-weight: 600;
-      border-radius: 0px;
-      -webkit-transition-duration: 500ms;
-      -o-transition-duration: 500ms;
-      transition-duration: 500ms;
-      background-color: white;
-      padding: 10px;
-      // border-bottom: 0.5px solid black;
-       border-top: 0.5px solid lightgrey;
-  }
+//   .menu_area #nav .nav-link {
+//     color: black;
+//     display: block;
+//     width: 200px;
+//     font-size: 16px;
+//     font-weight: 600;
+//     border-radius: 0px;
+//     -webkit-transition-duration: 500ms;
+//     -o-transition-duration: 500ms;
+//     transition-duration: 500ms;
+//     background-color: white;
+//     padding: 10px;
+//     // border-bottom: 0.5px solid black;
+//      border-top: 0.5px solid lightgrey;
+// }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
