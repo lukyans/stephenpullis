@@ -146,6 +146,7 @@
       background-repeat:   no-repeat;
       background-position: center center;
     }
+
     #home .contents p {
       font-size: 28px;
       color: #fff;
@@ -273,6 +274,10 @@
 
   #prices .price-footer .gift_certificate {
     display:none;
+  }
+
+  #price .col-2 {
+    max-width: 26%;
   }
 }
 
