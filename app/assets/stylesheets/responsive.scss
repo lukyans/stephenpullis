@@ -281,13 +281,14 @@
   }
   #prices .left-header strong {
     margin-bottom: 10px;
-    align-self: right;
+    margin-left: 200px
   }
   #prices .right-header strong {
     margin-bottom: 10px;
     margin-left: 15px;
   }
   .promo {
+    background: image-url("home/water-lily.jpg") fixed;
     background-position: cover;
     height: 400px;
     position: relative;
