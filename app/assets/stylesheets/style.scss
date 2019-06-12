@@ -667,7 +667,7 @@ a:not([href]):not([tabindex]):hover {
 #prices .price-footer .col-3 {
   // padding-left: 16px;
   padding-right: 0px;
-  maxwidth: 120px;
+  mawidth: 120px;
 }
 
 /* ==========================================================================
@@ -938,6 +938,9 @@ a:not([href]):not([tabindex]):hover {
   padding: 20px;
   border-radius: .5rem;
 }
+.section-title span {
+  color: #4676fa;
+}
 
 .welcome{
   padding-top: 110px;
@@ -1022,6 +1025,7 @@ a:not([href]):not([tabindex]):hover {
   font-weight: 100;
   text-transform: uppercase;
 }
+
 .about-item .about-text span {
   font-size: 15px;
   color: #999;
