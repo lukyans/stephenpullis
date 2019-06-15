@@ -175,16 +175,6 @@ a:not([href]):not([tabindex]):hover {
   left: 29px;
 }
 
-// #getOurApp {
-//   // border: none;
-//   width: 200px;
-//   height: 48px;
-// }
-// #connect-link {
-//   display: block;
-//   width: 40px;
-// }
-
 /* --------------------------
 :: 2.0 Header Area CSS
 -------------------------- */
@@ -304,7 +294,6 @@ a:not([href]):not([tabindex]):hover {
    ========================================================================== */
 
 .back-img {
-  // margin-top: 75px;
   background: image-url("home/home_water-lily.jpg") fixed;
   position: absolute;
   z-index: 1;
@@ -317,8 +306,6 @@ a:not([href]):not([tabindex]):hover {
 
 .container-fluid {
   width: 100%;
-  // padding-right: 0px;
-  // padding-left: 0px;
   margin-right: auto;
   margin-left: auto;
   overflow-x: hidden;
@@ -412,24 +399,6 @@ a:not([href]):not([tabindex]):hover {
   text-align: right;
   // color: white;
 }
-
-// .overlay-3 {
-//   position: absolute;
-//     top: 0;
-//     right: 0;
-//     bottom: 0;
-//     left: 0;
-//     z-index: 300;
-//
-// }
-// .overlay-4 {
-//   position: absolute;
-//     top: 0;
-//     right: 0;
-//     bottom: 0;
-//     left: 0;
-//
-// }
 /* ==========================================================================
    Modlities Section Style
    ========================================================================== */
@@ -583,14 +552,14 @@ a:not([href]):not([tabindex]):hover {
 
 #prices .price-footer {
   .container {
-    max-width: 1240px;
+    max-width: 100%;
   }
 }
 
 #prices .price-footer .col-3 {
   // padding-left: 16px;
   padding-right: 0px;
-  max-width: 120px;
+  // max-width: 180px;
 }
 
 /* ==========================================================================
