@@ -1,38 +1,46 @@
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    .menu_area .navbar-brand {
-        font-size: 42px;
-    }
-    .menu_area #nav .nav-link {
-        padding: 35px 7.5px;
-    }
-    .sing-up-button > a {
-        color: #fff;
-        height: 40px;
-        min-width: 152px;
-        line-height: 36px;
-        font-size: 14px;
-    }
-    .welcome-thumb {
-        width: 50%;
-        bottom: -100px;
-        right: 50px;
-    }
-    .home {
-        height: 550px;
-    }
-    .app_screenshots_slides {
-        padding: 0 4%;
-    }
-    .header_area.sticky .menu_area #nav .nav-link {
-        padding: 23px 7.5px;
-    }
-    #prices .content-left .text {
-      margin-top: 2rem !important;
-    }
-    #prices .content-right .text {
-      margin-top: 2rem !important;
-    }
+  .menu_area .navbar-brand {
+    font-size: 42px;
+  }
+
+  .menu_area #nav .nav-link {
+    padding: 35px 7.5px;
+  }
+
+  .sing-up-button > a {
+    color: #fff;
+    height: 40px;
+    min-width: 152px;
+    line-height: 36px;
+    font-size: 14px;
+  }
+
+  .welcome-thumb {
+    width: 50%;
+    bottom: -100px;
+    right: 50px;
+  }
+
+  .home {
+    height: 550px;
+  }
+
+  .app_screenshots_slides {
+      padding: 0 4%;
+  }
+
+  .header_area.sticky .menu_area #nav .nav-link {
+      padding: 23px 7.5px;
+  }
+
+  #prices .content-left .text {
+    margin-top: 2rem !important;
+  }
+
+  #prices .content-right .text {
+    margin-top: 2rem !important;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -59,87 +67,104 @@
     background-repeat:   no-repeat;
     background-position: center center;
   }
-    .header_area {
-        padding: 0;
-    }
-    .menu_area .navbar-brand {
-        font-size: 48px;
-    }
-    .header_area.sticky {
-        height: 50px;
-    }
-    .header_area .menu_area #nav .nav-link,
-    .header_area.sticky .menu_area #nav .nav-link {
-        padding: 7.5px 15px;
-    }
-    #ca-navbar {
-        padding: 30px;
-        border-radius: 3px;
-        background-color: #5b32b4;
-        text-align: left;
-    }
-    .sing-up-button {
-        margin-top: 30px;
-        text-align: left;
-    }
-    .welcome-thumb {
-        width: 50%;
-        bottom: -100px;
-        right: 0;
-    }
-    .wellcome-heading {
-        margin-bottom: 70px;
-    }
-    .single-special {
-        padding: 30px 10px;
-    }
-    .special_description_area.mt-150 {
-        margin-top: 50px;
-    }
-    .special_description_content > h2 {
-        font-size: 30px;
-    }
-    .home {
-        height: 350px;
-    }
-    .section-heading > h2 {
-        font-size: 38px;
-    }
-    .address-text > p,
-    .phone-text > p,
-    .email-text > p {
-        font-size: 16px;
-    }
-    .footer-text > p {
-        margin-bottom: 30px;
-    }
-    .section-heading {
-        margin-bottom: 50px;
-    }
-    .sing-up-button > a {
-        margin-top: 4px;
-        display: inline-block;
-        border: 2px solid #a883e9;
-        height: 40px;
-        min-width: 160px;
-        line-height: 36px;
-        font-size: 14px;
-    }
-    .counter-area {
-        min-width: 50px;
-    }
-    .counter-area > h3 {
-        font-size: 30px;
-    }
-    .app_screenshots_slides {
-        padding: 0;
-    }
-    .clients-feedback-area .slick-slide.slick-current img {
-        width: 90px !important;
-        height: 90px !important;
-    }
+
+  .header_area {
+    padding: 0;
+  }
+
+  .menu_area .navbar-brand {
+    font-size: 48px;
+  }
+
+  .header_area.sticky {
+    height: 50px;
+  }
+
+  .header_area .menu_area #nav .nav-link,
+  .header_area.sticky .menu_area #nav .nav-link {
+    padding: 7.5px 15px;
+  }
+
+  #ca-navbar {
+    padding: 30px;
+    border-radius: 3px;
+    background-color: #5b32b4;
+    text-align: left;
+  }
+
+  .welcome-thumb {
+    width: 50%;
+    bottom: -100px;
+    right: 0;
+  }
+
+  .wellcome-heading {
+    margin-bottom: 70px;
+  }
+
+  .single-special {
+    padding: 30px 10px;
+  }
+
+  .special_description_area.mt-150 {
+    margin-top: 50px;
+  }
+
+  .special_description_content > h2 {
+    font-size: 30px;
+  }
+
+  .home {
+    height: 350px;
+  }
+
+  .section-heading > h2 {
+      font-size: 38px;
+  }
+
+  .address-text > p,
+  .phone-text > p,
+  .email-text > p {
+    font-size: 16px;
+  }
+
+  .footer-text > p {
+    margin-bottom: 30px;
+  }
+
+  .section-heading {
+    margin-bottom: 50px;
+  }
+
+  .sing-up-button > a {
+    margin-top: 4px;
+    display: inline-block;
+    border: 2px solid #a883e9;
+    height: 40px;
+    min-width: 160px;
+    line-height: 36px;
+    font-size: 14px;
+  }
+
+  .counter-area {
+    min-width: 50px;
+  }
+
+  .counter-area > h3 {
+    font-size: 30px;
+  }
+
+  .app_screenshots_slides {
+    padding: 0;
+  }
+
+  .clients-feedback-area .slick-slide.slick-current img {
+    width: 90px !important;
+    height: 90px !important;
+  }
+
 	.header_area.sticky .menu_area #nav .nav-link{
-	color: #fff;
+	   color: #fff;
 	}
 
   #prices .content-left .text {
@@ -199,127 +224,150 @@
     background-position: center center;
   }
 
-    #home .contents p {
-      font-size: 25px;
-      color: #fff;
-      font-weight: 900;
-      line-height: 38px;
-      letter-spacing: 0.3px;
-    }
+  #home .contents p {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 900;
+    line-height: 38px;
+    letter-spacing: 0.3px;
+  }
 
-    .header_area {
-        padding: 0;
-    }
-    .menu_area .navbar-brand {
-        font-size: 26px;
-    }
-    .header_area.sticky {
-        height: 50px;
-    }
-    .header_area .menu_area #nav .nav-link,
-    .header_area.sticky .menu_area #nav .nav-link {
-        padding: 5px 15px;
-    }
-    #ca-navbar {
-        padding: 20px;
-        border-radius: 3px;
-        background-color: #5b32b4;
-        text-align: left;
-    }
-    // .sing-up-button {
-    //     margin-top: 30px;
-    //     text-align: left;
-    // }
-    .header_area {
-        top: 0;
-    }
-    .welcome_text .cd-intro > p {
-        font-size: 14px;
-    }
-    .wellcome-heading > h2 {
-        font-size: 48px;
-    }
-    .get-start-area .email {
-        margin-bottom: 20px;
-        max-width: 100%;
-    }
-    .welcome-thumb {
-        width: 90%;
-        bottom: -74px;
-        right: 0;
-    }
-    .logo_area > a > h2 {
-        font-size: 40px;
-        margin-top: 10px;
-    }
-    .section-heading > h2 {
-        font-size: 32px;
-    }
-    .single-special {
-        margin-bottom: 30px;
-    }
-    .special_description_area.mt-150 {
-        margin-top: 50px;
-    }
-    .special_description_content > h2 {
-        font-size: 30px;
-    }
-    .app-download-btn:first-child {
-        margin-right: 0;
-    }
-    .app-download-area {
-        display: block;
-    }
-    .app-download-btn {
-        margin-bottom: 20px;
-    }
-    .home {
-        border: 10px solid #fff;
-        border-radius: 20px;
-        height: 250px;
-    }
-    .home::after {
-        top: -10px;
-        left: -10px;
-        width: calc(100% + 20px);
-        height: calc(100% + 20px);
-        border: 1px solid #f1f4f8;
-        z-index: 2;
-        border-radius: 20px;
-    }
-    .clients-feedback-area .client-description > p {
-        font-size: 20px;
-    }
-    .clients-feedback-area .slick-slide img {
-        width: 60px !important;
-        height: 60px !important;
-    }
-    .clients-feedback-area .slick-slide.slick-current img {
-        width: 70px !important;
-        height: 70px !important;
-    }
-    .membership-description > h2 {
-        font-size: 32px;
-    }
-    .get-started-button {
-        text-align: left;
-        margin-top: 20px;
-    }
-    .contact_from {
-        margin-top: 30px;
-    }
-    .wellcome-heading > h3 {
-        font-size: 100px;
-		top: -146px;
-		left: 8px;
-    }
-    .wellcome-heading,
-    .single-cool-fact {
-        margin-bottom: 50px;
-    }
-    .cool_facts_area .col-12:last-of-type .single-cool-fact {
-        margin-bottom: 0;
-    }
+  .header_area {
+    padding: 0;
+  }
+
+  .menu_area .navbar-brand {
+    font-size: 26px;
+  }
+
+  .header_area.sticky {
+    height: 50px;
+  }
+
+  .header_area .menu_area #nav .nav-link,
+  .header_area.sticky .menu_area #nav .nav-link {
+    padding: 5px 15px;
+  }
+
+  #ca-navbar {
+    padding: 20px;
+    border-radius: 3px;
+    background-color: #5b32b4;
+    text-align: left;
+  }
+
+  .header_area {
+    top: 0;
+  }
+
+  .welcome_text .cd-intro > p {
+    font-size: 14px;
+  }
+
+  .wellcome-heading > h2 {
+    font-size: 48px;
+  }
+
+  .get-start-area .email {
+    margin-bottom: 20px;
+    max-width: 100%;
+  }
+
+  .welcome-thumb {
+    width: 90%;
+    bottom: -74px;
+    right: 0;
+  }
+
+  .logo_area > a > h2 {
+    font-size: 40px;
+    margin-top: 10px;
+  }
+
+  .section-heading > h2 {
+    font-size: 32px;
+  }
+
+  .single-special {
+    margin-bottom: 30px;
+  }
+
+  .special_description_area.mt-150 {
+    margin-top: 50px;
+  }
+
+  .special_description_content > h2 {
+    font-size: 30px;
+  }
+
+  .app-download-btn:first-child {
+    margin-right: 0;
+  }
+
+  .app-download-area {
+    display: block;
+  }
+
+  .app-download-btn {
+    margin-bottom: 20px;
+  }
+
+  .home {
+    border: 10px solid #fff;
+    border-radius: 20px;
+    height: 250px;
+  }
+
+  .home::after {
+    top: -10px;
+    left: -10px;
+    width: calc(100% + 20px);
+    height: calc(100% + 20px);
+    border: 1px solid #f1f4f8;
+    z-index: 2;
+    border-radius: 20px;
+  }
+
+  .clients-feedback-area .client-description > p {
+    font-size: 20px;
+  }
+  .clients-feedback-area .slick-slide img {
+    width: 60px !important;
+    height: 60px !important;
+  }
+
+  .clients-feedback-area .slick-slide.slick-current img {
+    width: 70px !important;
+    height: 70px !important;
+  }
+
+  .membership-description > h2 {
+    font-size: 32px;
+  }
+
+  .get-started-button {
+    text-align: left;
+    margin-top: 20px;
+  }
+
+  .contact_from {
+    margin-top: 30px;
+  }
+
+  .wellcome-heading > h3 {
+    font-size: 100px;
+    top: -146px;
+    left: 8px;
+  }
+
+  .wellcome-heading, .single-cool-fact {
+    margin-bottom: 50px;
+  }
+
+  .cool_facts_area .col-12:last-of-type .single-cool-fact {
+    margin-bottom: 0;
+  }
+
 	.header_area.sticky .menu_area #nav .nav-link{
 	  color: #fff;
 	}
@@ -331,21 +379,24 @@
   #prices .col-2 {
     max-width: 35%;
   }
+
   #prices .left-header strong {
     margin-bottom: 10px;
     margin-left: 120px
   }
+
   #prices .right-header strong {
     margin-bottom: 10px;
     margin-left: 15px;
   }
+
   .promo {
     background: image-url("home/water-lily.jpg") fixed;
     background-position: cover;
     height: 400px;
     position: relative;
-    background-size:     cover;
-    background-repeat:   no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   #promo .layer {
@@ -365,8 +416,8 @@
     z-index: 1;
     width: 100%;
     height: 100%;
-    background-size:     cover;
-    background-repeat:   no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-position: top 70px;
   }
 
@@ -378,8 +429,8 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-size:     cover;
-    background-repeat:   no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-position: center center;
   }
 
@@ -395,33 +446,34 @@
     font-size: 30px;
   }
 
-  // #home .back-img {
-  //   // min-width: 914px;
-  //   // min-height: 492px;
-  // }
-
   .wellcome-heading > h3 {
       font-size: 100px;
   }
+
   .wellcome-heading > h2 {
       font-size: 70px;
   }
+
   .welcome-thumb {
       bottom: -109px;
       width: 75%;
   }
+
   .wellcome-heading {
       margin-bottom: 50px;
   }
+
   .wellcome-heading > h3 {
       top: -139px;
   }
+
   .get-start-area .email {
       max-width: 370px;
   }
-   .header_area.sticky .menu_area #nav .nav-link{
-    color: #fff;
-   }
+
+ .header_area.sticky .menu_area #nav .nav-link{
+  color: #fff;
+ }
 
   #prices .box-item .text h4 {
     font-size: 12px;
@@ -429,43 +481,48 @@
 
   #prices .content-left .text {
     margin-top: .6rem !important;
-    // margin-right: 29px;
     text-align: right;
     font-size: 15px;
   }
+
   #prices .content-right .text {
     margin-top: 0.6rem !important;
-    // margin-left: 35px;
     text-align: left;
     font-size: 15px;
   }
+
   #prices .left-header {
     margin-bottom: 10px;
     align-self: right;
   }
+
   #prices .right-header strong {
     margin-bottom: 10px;
-    // margin-left: 15px;
   }
+
   #prices .price-footer .gift_certificate {
     display:none;
   }
+
   #prices .col-3{
     max-width: 18%;
   }
+
   #prices .col-2 {
     max-width: 30%;
   }
+
   #prices .left-header strong {
     margin-bottom: 46px;
   }
+
   .promo {
     background: image-url("home/water-lily.jpg") fixed;
     background-position: cover;
     height: 400px;
     position: relative;
-    background-size:     cover;
-    background-repeat:   no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   #promo .layer {
@@ -476,22 +533,6 @@
       width: 100%;
       height: 100%;
   }
-
-//   .menu_area #nav .nav-link {
-//     color: black;
-//     display: block;
-//     width: 200px;
-//     font-size: 16px;
-//     font-weight: 600;
-//     border-radius: 0px;
-//     -webkit-transition-duration: 500ms;
-//     -o-transition-duration: 500ms;
-//     transition-duration: 500ms;
-//     background-color: white;
-//     padding: 10px;
-//     // border-bottom: 0.5px solid black;
-//      border-top: 0.5px solid lightgrey;
-// }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {

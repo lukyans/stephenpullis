@@ -1,0 +1,47 @@
+/* ==========================================================================
+ About Section Style
+ ========================================================================== */
+
+#about {
+  background: #e4f0f8;
+}
+
+.about-item {
+  text-align: center;
+}
+
+.about-item .img img {
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+}
+
+.about-item .about-text h3 {
+  font-size: 16px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.about-item .about-text span {
+  font-size: 15px;
+  color: #999;
+}
+
+.about-item .about-text p {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 20px 10px 20px 10px;
+  letter-spacing: 1px;
+  margin: 0;
+  line-height: 1.5;
+  color: #999;
+}
+
+.about_section {
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+
+.about-item .section-title span {
+  color: #4676fa;
+}

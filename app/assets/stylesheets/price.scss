@@ -1,0 +1,123 @@
+/* ==========================================================================
+   Pricing Table
+   ========================================================================== */
+#prices {
+  background: #fff;
+}
+
+.prices.section {
+  padding-bottom: 20px;
+}
+
+#prices .icon {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 4px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+#prices .content-left {
+  position: relative;
+  top: 40px;
+}
+
+#prices .content-left span {
+  float: right;
+  margin-left: 25px;
+}
+
+#prices .content-left .text {
+  margin-top: 1.9rem !important;
+}
+
+#prices .content-right {
+  position: relative;
+  top: 40px;
+}
+
+#prices .content-right span {
+  float: left;
+  margin-right: 25px;
+}
+
+#prices .content-right .text {
+  margin-top: 1.9rem !important;
+}
+
+#prices .box-item {
+  padding-bottom: 30px;
+}
+
+#prices .box-item .icon {
+  border: 1px solid #4676fa;
+  text-align: center;
+  margin: 12px;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+#prices .box-item .icon i {
+  color: #4676fa;
+  font-size: 24px;
+  line-height: 60px;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+#prices .box-item .text h4 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+#prices .box-item .text p {
+  font-size: 14px;
+  line-height: 26px;
+}
+
+#prices .box-item:hover .icon {
+  background: #4676fa;
+}
+
+#prices .box-item:hover .icon i {
+  color: #ffffff;
+}
+
+#prices .show-box {
+  padding: 60px 0px 0px;
+}
+
+#prices .show-box img {
+  width: 100%;
+}
+
+#prices .overlay:before{
+  position: absolute;
+  content:" ";
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  display: block;
+  z-index:0;
+  background-color: rgba(255,0,0,0.5);
+}
+
+#prices .price-footer {
+  .container {
+    max-width: 100%;
+  }
+}
+
+#prices .price-footer .col-3 {
+  // padding-left: 16px;
+  padding-right: 0px;
+  // max-width: 180px;
+}

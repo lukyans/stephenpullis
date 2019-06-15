@@ -1,0 +1,109 @@
+/* ==========================================================================
+ Home Area
+ ========================================================================== */
+
+.back-img {
+  background: image-url("home/home_water-lily.jpg") fixed;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center top 70px;
+}
+
+.container-fluid {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  overflow-x: hidden;
+}
+
+.layers {
+  background: image-url("home/home_stars_resized.jpg");
+  // background-color: rgba(0,0,51, 0.9); //2,5  2,103, 0.9
+  position: absolute;
+   opacity: 0.7;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+}
+
+.lines {
+  margin: auto;
+  width: 70px;
+  position: relative;
+  border-top: 2px solid #346afe;
+  margin-top: 15px;
+}
+
+.lines:before {
+  position: absolute;
+  content: "";
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  top: -6px;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  background: #4676fa;
+  left: 29px;
+}
+
+.pos{
+  position: relative;
+  z-index: 10;
+}
+
+#home .contents {
+  padding: 300px 0 80px;
+}
+
+// #home .contents h1 {
+//   color: #fff;
+//   font-size: 50px;
+//   font-weight: 600;
+//   margin-bottom: 25px;
+//   line-height: 70px;
+// }
+
+#home .contents p {
+  font-size: 44px;
+  color: #fff;
+  font-weight: 900;
+  line-height: 56px;
+  letter-spacing: 0.3px;
+}
+#home .contents .btn {
+  margin: 20px 10px;
+  text-transform: uppercase;
+}
+#home .banner_bottom_btn {
+  margin-top: 40px;
+}
+#home .banner_bottom_btn i {
+  color: #fff;
+  font-size: 48px;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  // -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+#home .banner_bottom_btn i:hover {
+  color: #4676fa;
+}
+
+#home .intro_text {
+  font-family: 'Lora', serif;
+  text-align: left;
+}
+
+.signature {
+  font: 400 20px/0.8 'Great Vibes', Helvetica, sans-serif;
+  text-align: right;
+}

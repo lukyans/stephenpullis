@@ -1,0 +1,56 @@
+/* ==========================================================================
+ Modalities Section Style
+ ========================================================================== */
+
+.item-boxes {
+  text-align: left;
+  padding: 5px 0px 0px 10px;
+  border-radius: 4px;
+  margin-bottom: 4px;
+  -moz-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.item-boxes .icon {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  border: 1px solid #4676fa;
+  display: inline-block;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.item-boxes .icon i {
+  font-size: 30px;
+  line-height: 60px;
+  color: #4676fa;
+}
+
+.item-boxes h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.item-boxes:hover {
+  background: #fff;
+  box-shadow: 0 8px 48px 0 rgba(0, 0, 0, 0.15);
+}
+
+#modalities {
+  position: relative;
+  background: #F5FBFF;
+}
+
+.modalities-col {
+  @media (min-width: 768px) {
+    .col-md-2 {
+      flex: 0 0 26.66667%;
+      max-width: 25%;
+    }
+  }
+}
