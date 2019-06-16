@@ -4,7 +4,7 @@
   }
 
   .menu_area #nav .nav-link {
-    padding: 35px 7.5px;
+    padding: 20px 7.5px;
   }
 
   .sing-up-button > a {
@@ -13,6 +13,19 @@
     min-width: 152px;
     line-height: 36px;
     font-size: 14px;
+  }
+
+  .navbar_logo{
+    width: 32px;
+  }
+  
+  .menu_area .navbar-brand {
+    font-size: 30px;
+    font-weight: 350;
+    color: #fff;
+    margin-top: 5px;
+    line-height: 1;
+    padding: 0;
   }
 
   // .welcome-thumb {
