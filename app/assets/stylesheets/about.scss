@@ -45,3 +45,57 @@
 .about-item .section-title span {
   color: #4676fa;
 }
+
+
+.social-icons {
+  margin-bottom: 20px;
+  margin-left: 0px;
+}
+
+.social-icons ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.social-icons ul li {
+  display: inline;
+}
+
+.social-icons ul li a {
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 254, 254, 0.07);
+  line-height: 40px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 23px;
+}
+
+.social-icons ul li a:hover {
+  color: #ffffff;
+}
+
+.email a {
+  color: #1da1f2;
+}
+
+.email a:hover {
+  background: #1da1f2;
+}
+
+.linkedin a {
+  color: #007bb6;
+}
+
+.linkedin a:hover {
+  background: #007bb6;
+}
+
+.yelp a:hover {
+  background: #ea4c89;
+}
