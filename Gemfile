@@ -44,6 +44,7 @@ gem "font-awesome-rails"
 gem "jquery-slick-rails"
 gem 'wow-rails'
 gem 'pry', '~> 0.12.2'
+gem 'meta-tags'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
