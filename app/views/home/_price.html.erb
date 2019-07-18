@@ -121,12 +121,14 @@
     <div class="container">
       <div class="row">
         <div class="col-3 mt-4 text-right gift_certificate">
-          Gift Certificates are available through the MIndBody website and MindBody app for Mobile devices
+          Gift Certificates are available through the MINDBODY app for Mobile devices
         </div>
-        <div class="col-2 mt-4 mr-5">
-          <iframe id="getOurApp" scrolling="no" allowtransparency="true" src="https://clients.mindbodyonline.com/connect/appbutton?siteID=251698" style="border: none; width: 200px; height: 48px;"></iframe>
+        <div class="col-4 mt-4 mr-5">
+          <%= link_to "https://apps.apple.com/us/app/mindbody-gym-yoga-wellness/id689501356?mt=8" do %>
+           <%= image_tag "footer/mbo-logo.png", width: "58", height: "58", alt: "MindBody", class: "ml-3" %>
+          <% end %>
         </div>
-        <div class="col-6 mt-4 ml-2 text-center">
+        <div class="col-3 mt-4 ml-5 text-left">
           <%= image_tag "prices/payment_methods.png", width: "170" %>
         </div>
       </div>
