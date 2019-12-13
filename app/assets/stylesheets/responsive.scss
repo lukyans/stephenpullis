@@ -393,12 +393,12 @@
   }
 
   #prices .left-header strong {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     margin-left: 120px
   }
 
   #prices .right-header strong {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     margin-left: 15px;
   }
 
@@ -422,6 +422,8 @@
     // height: 100%;
   }
 }
+
+
 
 @media (min-width: 480px) and (max-width: 767px) {
   #home .back-img {
@@ -494,13 +496,13 @@
   }
 
   #prices .content-left .text {
-    margin-top: .6rem !important;
+    // margin-top: .6rem !important;
     text-align: right;
     font-size: 15px;
   }
 
   #prices .content-right .text {
-    margin-top: 0.6rem !important;
+    // margin-top: 0.6rem !important;
     text-align: left;
     font-size: 15px;
   }
@@ -527,7 +529,7 @@
   }
 
   #prices .left-header strong {
-    margin-bottom: 46px;
+    margin-bottom: 5px;
   }
 
   .promo {

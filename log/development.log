@@ -15621,3 +15621,362 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 106ms (Views: 104.9ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2019-12-13 01:40:09 -0500
+  [1m[35m (4.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/sergeylukyanenko/.rvm/gems/ruby-2.6.5/gems/activerecord-5.2.4/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_home.html.erb (1.8ms)
+Started GET "/" for ::1 at 2019-12-13 01:40:12 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_home.html.erb (0.7ms)
+  Rendered home/_welcome.html.erb (23941.1ms)
+  Rendered home/_about.html.erb (3.4ms)
+  Rendered home/_price.html.erb (11.1ms)
+  Rendered home/_modalities.html.erb (0.8ms)
+  Rendered home/_testimonial.html.erb (6.6ms)
+  Rendered home/_blog.html.erb (6.7ms)
+  Rendered home/_contact.html.erb (1.2ms)
+  Rendered home/index.html.erb within layouts/application (23987.6ms)
+  Rendered shared/_nav.html.erb (1.6ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+Completed 200 OK in 24305ms (Views: 24297.4ms | ActiveRecord: 0.0ms)
+
+
+  Rendered home/_welcome.html.erb (21203.0ms)
+  Rendered home/_about.html.erb (1.2ms)
+  Rendered home/_price.html.erb (8.2ms)
+  Rendered home/_modalities.html.erb (0.8ms)
+  Rendered home/_testimonial.html.erb (6.3ms)
+  Rendered home/_blog.html.erb (3.2ms)
+  Rendered home/_contact.html.erb (1.1ms)
+  Rendered home/index.html.erb within layouts/application (21232.4ms)
+  Rendered shared/_nav.html.erb (2.1ms)
+  Rendered shared/_footer.html.erb (1.2ms)
+Completed 200 OK in 21367ms (Views: 21365.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-12-13 01:40:56 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_home.html.erb (0.3ms)
+  Rendered home/_welcome.html.erb (20.5ms)
+  Rendered home/_about.html.erb (1.3ms)
+  Rendered home/_price.html.erb (14.8ms)
+  Rendered home/_modalities.html.erb (0.4ms)
+  Rendered home/_testimonial.html.erb (6.4ms)
+  Rendered home/_blog.html.erb (2.8ms)
+  Rendered home/_contact.html.erb (0.8ms)
+  Rendered home/index.html.erb within layouts/application (52.4ms)
+  Rendered shared/_nav.html.erb (2.8ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 200 OK in 181ms (Views: 179.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-12-13 01:44:09 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_home.html.erb (0.5ms)
+  Rendered home/_welcome.html.erb (13.7ms)
+  Rendered home/_about.html.erb (2.2ms)
+  Rendered home/_price.html.erb (18.0ms)
+  Rendered home/_modalities.html.erb (0.6ms)
+  Rendered home/_testimonial.html.erb (45.8ms)
+  Rendered home/_blog.html.erb (3.8ms)
+  Rendered home/_contact.html.erb (0.9ms)
+  Rendered home/index.html.erb within layouts/application (93.6ms)
+  Rendered shared/_nav.html.erb (1.6ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 3096ms (Views: 3093.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-12-13 01:44:15 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_home.html.erb (0.6ms)
+  Rendered home/_welcome.html.erb (5.6ms)
+  Rendered home/_about.html.erb (1.3ms)
+  Rendered home/_price.html.erb (11.2ms)
+  Rendered home/_modalities.html.erb (0.4ms)
+  Rendered home/_testimonial.html.erb (4.2ms)
+  Rendered home/_blog.html.erb (4.5ms)
+  Rendered home/_contact.html.erb (0.7ms)
+  Rendered home/index.html.erb within layouts/application (35.1ms)
+  Rendered shared/_nav.html.erb (2.1ms)
+  Rendered shared/_footer.html.erb (1.1ms)
+Completed 200 OK in 144ms (Views: 141.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-12-13 01:44:51 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_home.html.erb (0.5ms)
+  Rendered home/_welcome.html.erb (7.2ms)
+  Rendered home/_about.html.erb (2.5ms)
+  Rendered home/_price.html.erb (12.9ms)
+  Rendered home/_modalities.html.erb (1.3ms)
+  Rendered home/_testimonial.html.erb (5.0ms)
+  Rendered home/_blog.html.erb (3.0ms)
+  Rendered home/_contact.html.erb (0.6ms)
+  Rendered home/index.html.erb within layouts/application (43.6ms)
+  Rendered shared/_nav.html.erb (2.0ms)
+  Rendered shared/_footer.html.erb (1.3ms)
+Completed 200 OK in 139ms (Views: 137.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-12-13 01:44:58 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_home.html.erb (0.8ms)
+  Rendered home/_welcome.html.erb (5.9ms)
+  Rendered home/_about.html.erb (2.7ms)
+  Rendered home/_price.html.erb (11.9ms)
+  Rendered home/_modalities.html.erb (0.5ms)
+  Rendered home/_testimonial.html.erb (5.9ms)
+  Rendered home/_blog.html.erb (4.5ms)
+  Rendered home/_contact.html.erb (0.9ms)
+  Rendered home/index.html.erb within layouts/application (42.9ms)
+  Rendered shared/_nav.html.erb (2.2ms)
+  Rendered shared/_footer.html.erb (1.2ms)
+Completed 200 OK in 161ms (Views: 136.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-12-13 01:45:40 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_home.html.erb (0.7ms)
+  Rendered home/_welcome.html.erb (13.0ms)
+  Rendered home/_about.html.erb (1.7ms)
+  Rendered home/_price.html.erb (17.6ms)
+  Rendered home/_modalities.html.erb (0.4ms)
+  Rendered home/_testimonial.html.erb (4.9ms)
+  Rendered home/_blog.html.erb (6.4ms)
+  Rendered home/_contact.html.erb (1.4ms)
+  Rendered home/index.html.erb within layouts/application (58.5ms)
+  Rendered shared/_nav.html.erb (1.9ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 3570ms (Views: 3568.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-12-13 01:47:30 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_home.html.erb (1.0ms)
+  Rendered home/_welcome.html.erb (16.2ms)
+  Rendered home/_about.html.erb (4.6ms)
+  Rendered home/_price.html.erb (12.2ms)
+  Rendered home/_modalities.html.erb (0.7ms)
+  Rendered home/_testimonial.html.erb (7.9ms)
+  Rendered home/_blog.html.erb (12.4ms)
+  Rendered home/_contact.html.erb (1.5ms)
+  Rendered home/index.html.erb within layouts/application (74.9ms)
+  Rendered shared/_nav.html.erb (2.5ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 4451ms (Views: 4448.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-12-13 01:48:13 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_home.html.erb (0.3ms)
+  Rendered home/_welcome.html.erb (7.5ms)
+  Rendered home/_about.html.erb (1.5ms)
+  Rendered home/_price.html.erb (17.2ms)
+  Rendered home/_modalities.html.erb (0.4ms)
+  Rendered home/_testimonial.html.erb (3.9ms)
+  Rendered home/_blog.html.erb (4.5ms)
+  Rendered home/_contact.html.erb (0.6ms)
+  Rendered home/index.html.erb within layouts/application (41.8ms)
+  Rendered shared/_nav.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 3036ms (Views: 3034.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-12-13 01:48:19 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_home.html.erb (0.6ms)
+  Rendered home/_welcome.html.erb (4.6ms)
+  Rendered home/_about.html.erb (1.2ms)
+  Rendered home/_price.html.erb (10.7ms)
+  Rendered home/_modalities.html.erb (0.5ms)
+  Rendered home/_testimonial.html.erb (3.9ms)
+  Rendered home/_blog.html.erb (5.7ms)
+  Rendered home/_contact.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (34.0ms)
+  Rendered shared/_nav.html.erb (2.4ms)
+  Rendered shared/_footer.html.erb (1.4ms)
+Completed 200 OK in 139ms (Views: 136.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-12-13 01:48:44 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_home.html.erb (0.5ms)
+  Rendered home/_welcome.html.erb (6.1ms)
+  Rendered home/_about.html.erb (1.5ms)
+  Rendered home/_price.html.erb (15.8ms)
+  Rendered home/_modalities.html.erb (0.9ms)
+  Rendered home/_testimonial.html.erb (4.8ms)
+  Rendered home/_blog.html.erb (2.6ms)
+  Rendered home/_contact.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (39.7ms)
+  Rendered shared/_nav.html.erb (2.4ms)
+  Rendered shared/_footer.html.erb (1.2ms)
+Completed 200 OK in 3125ms (Views: 3123.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-12-13 01:49:24 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_home.html.erb (0.6ms)
+  Rendered home/_welcome.html.erb (8.9ms)
+  Rendered home/_about.html.erb (1.5ms)
+  Rendered home/_price.html.erb (34.4ms)
+  Rendered home/_modalities.html.erb (0.4ms)
+  Rendered home/_testimonial.html.erb (5.0ms)
+  Rendered home/_blog.html.erb (4.9ms)
+  Rendered home/_contact.html.erb (0.6ms)
+  Rendered home/index.html.erb within layouts/application (62.6ms)
+  Rendered shared/_nav.html.erb (1.9ms)
+  Rendered shared/_footer.html.erb (1.2ms)
+Completed 200 OK in 142ms (Views: 141.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-12-13 01:50:28 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_home.html.erb (0.9ms)
+  Rendered home/_welcome.html.erb (9.6ms)
+  Rendered home/_about.html.erb (1.6ms)
+  Rendered home/_price.html.erb (14.1ms)
+  Rendered home/_modalities.html.erb (0.5ms)
+  Rendered home/_testimonial.html.erb (3.7ms)
+  Rendered home/_blog.html.erb (4.3ms)
+  Rendered home/_contact.html.erb (0.7ms)
+  Rendered home/index.html.erb within layouts/application (42.7ms)
+  Rendered shared/_nav.html.erb (1.6ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 3122ms (Views: 3120.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-12-13 01:50:43 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_home.html.erb (1.0ms)
+  Rendered home/_welcome.html.erb (17.4ms)
+  Rendered home/_about.html.erb (3.4ms)
+  Rendered home/_price.html.erb (14.0ms)
+  Rendered home/_modalities.html.erb (0.6ms)
+  Rendered home/_testimonial.html.erb (9.9ms)
+  Rendered home/_blog.html.erb (6.5ms)
+  Rendered home/_contact.html.erb (1.0ms)
+  Rendered home/index.html.erb within layouts/application (65.1ms)
+  Rendered shared/_nav.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 3115ms (Views: 3111.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-12-13 01:55:12 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_home.html.erb (0.5ms)
+  Rendered home/_welcome.html.erb (4.7ms)
+  Rendered home/_about.html.erb (3.1ms)
+  Rendered home/_price.html.erb (9.8ms)
+  Rendered home/_modalities.html.erb (0.8ms)
+  Rendered home/_testimonial.html.erb (6.6ms)
+  Rendered home/_blog.html.erb (2.9ms)
+  Rendered home/_contact.html.erb (0.6ms)
+  Rendered home/index.html.erb within layouts/application (38.2ms)
+  Rendered shared/_nav.html.erb (1.6ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 3153ms (Views: 3151.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-12-13 01:55:18 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_home.html.erb (0.4ms)
+  Rendered home/_welcome.html.erb (10.6ms)
+  Rendered home/_about.html.erb (2.6ms)
+  Rendered home/_price.html.erb (12.5ms)
+  Rendered home/_modalities.html.erb (0.4ms)
+  Rendered home/_testimonial.html.erb (5.6ms)
+  Rendered home/_blog.html.erb (5.1ms)
+  Rendered home/_contact.html.erb (1.0ms)
+  Rendered home/index.html.erb within layouts/application (45.9ms)
+  Rendered shared/_nav.html.erb (1.9ms)
+  Rendered shared/_footer.html.erb (1.1ms)
+Completed 200 OK in 173ms (Views: 171.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-12-13 01:55:45 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_home.html.erb (1.0ms)
+  Rendered home/_welcome.html.erb (10.9ms)
+  Rendered home/_about.html.erb (2.6ms)
+  Rendered home/_price.html.erb (9.6ms)
+  Rendered home/_modalities.html.erb (0.5ms)
+  Rendered home/_testimonial.html.erb (4.2ms)
+  Rendered home/_blog.html.erb (2.5ms)
+  Rendered home/_contact.html.erb (0.8ms)
+  Rendered home/index.html.erb within layouts/application (41.2ms)
+  Rendered shared/_nav.html.erb (6.2ms)
+  Rendered shared/_footer.html.erb (1.3ms)
+Completed 200 OK in 3152ms (Views: 3149.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-12-13 01:56:18 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_home.html.erb (0.9ms)
+  Rendered home/_welcome.html.erb (10.6ms)
+  Rendered home/_about.html.erb (3.2ms)
+  Rendered home/_price.html.erb (8.8ms)
+  Rendered home/_modalities.html.erb (0.8ms)
+  Rendered home/_testimonial.html.erb (3.9ms)
+  Rendered home/_blog.html.erb (3.9ms)
+  Rendered home/_contact.html.erb (0.8ms)
+  Rendered home/index.html.erb within layouts/application (43.0ms)
+  Rendered shared/_nav.html.erb (2.1ms)
+  Rendered shared/_footer.html.erb (1.3ms)
+Completed 200 OK in 141ms (Views: 138.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-12-13 01:56:20 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_home.html.erb (0.4ms)
+  Rendered home/_welcome.html.erb (12.6ms)
+  Rendered home/_about.html.erb (2.4ms)
+  Rendered home/_price.html.erb (28.2ms)
+  Rendered home/_modalities.html.erb (0.4ms)
+  Rendered home/_testimonial.html.erb (5.0ms)
+  Rendered home/_blog.html.erb (5.6ms)
+  Rendered home/_contact.html.erb (0.9ms)
+  Rendered home/index.html.erb within layouts/application (62.5ms)
+  Rendered shared/_nav.html.erb (1.1ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 168ms (Views: 166.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-12-13 01:56:27 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_home.html.erb (0.8ms)
+  Rendered home/_welcome.html.erb (11.8ms)
+  Rendered home/_about.html.erb (1.5ms)
+  Rendered home/_price.html.erb (12.9ms)
+  Rendered home/_modalities.html.erb (0.7ms)
+  Rendered home/_testimonial.html.erb (4.6ms)
+  Rendered home/_blog.html.erb (3.5ms)
+  Rendered home/_contact.html.erb (1.1ms)
+  Rendered home/index.html.erb within layouts/application (45.0ms)
+  Rendered shared/_nav.html.erb (2.1ms)
+  Rendered shared/_footer.html.erb (1.7ms)
+Completed 200 OK in 164ms (Views: 161.8ms | ActiveRecord: 0.0ms)
+
+
